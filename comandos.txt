@@ -1,0 +1,11 @@
+1-criar projeto:
+# npx create-expo-app@latest
+2-Criar dentro do package.json
+==============================
+"dev": "expo start --android",
+==============================
+3-resetar o projeto:
+# npm run reset-project
+4- apagar a pasta APP-EXAMPLE
+5- criar a pasta src/ e colocar a pasta app/ dentro da src/
+
