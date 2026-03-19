@@ -8,4 +8,45 @@
 # npm run reset-project
 4- apagar a pasta APP-EXAMPLE
 5- criar a pasta src/ e colocar a pasta app/ dentro da src/
+6- adicionar todos arquivos ao git
+# git add .
+7- Primeiro commit
+# git commit -m "primeiro commit"
+8-trocar de (MASTER) para (MAIN)
+# git branch -M main
+9- Suubir no GITHUB:
+# git remote add origin https://github.com/rogerszme/rassi-foof-express.git
+10-abri a tela de login do GITHUB para logar no browser
+# só logar
+11- instalar: Install Nativewind
+LIN: https://www.nativewind.dev/docs/getting-started/installation :
+npx expo install nativewind react-native-reanimated react-native-safe-area-context
+npx expo install --dev tailwindcss@^3.4.17 prettier-plugin-tailwindcss@^0.5.11 babel-preset-expo
+12-criar o arquivo tailwind.config.js na raiz do projejto
+colocar a pasta SRC no arqquivo:
+==================================================================
+content: ["./src/App.tsx", "./components/**/*.{js,jsx,ts,tsx}"],
+==================================================================
+criar a pasta 'STYYLE' dentro da SRC/
+CRIAR O ARQUIVO DENTRO DA STYLE O ARQUIVO global.css
+==================================================================
+criar na raiz do projeto o arquivo "babel.config.js"
+criar na raiz do projeto o arquivo "metro.config.js"
+==================================================================
+corrigir o local da pasta do CSS:
+{ input: './src/style/global.css' })
+==================================================================
+allterar o arquivo app/_layout.tsx
+==================================================================
+==================================================================
+import { Slot } from "expo-router";
 
+export default function RootLayout() {
+  return <Slot />;
+}
+adicionar o import
+==================================================================
+import "../style/global.css";
+ adicioonar no app.jsoon
+
+ "bundler": "metro"
