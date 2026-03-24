@@ -50,3 +50,12 @@ import "../style/global.css";
  adicioonar no app.jsoon
 
  "bundler": "metro"
+ =================================================================
+ 23-03-2026
+ 1-Deletar a pasta /src/types coom todo seu conteudo
+ 2- Criar a pasta ASSETS dentro de /src/
+ =================================================================
+ 3- coonfigurar o arquivo => tailwind.config..js
+ content: ["./src/app/index.tsx", "./components/**/*.{js,jsx,ts,tsx}"],
+ =================================================================
+ 4-
