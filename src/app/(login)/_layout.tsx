@@ -9,7 +9,7 @@ export default function LoginLayout() {
     contentStyle: { backgroundColor: "#ffffff" },
   }} >
     <Stack.Screen
-      name="index"
+      name="login"
       options={{
         headerTitle: () => (
           <Image source={icons.logo01}/>
@@ -18,6 +18,27 @@ export default function LoginLayout() {
         headerShadowVisible:false
       }}
     />
+    <Stack.Screen
+      name="register"
+      options={{
+        headerTitle: () => (
+          <Image source={icons.logo01}/>
+        ),
+        headerTitleAlign: 'center',
+        headerShadowVisible:false
+      }}
+    />
+    <Stack.Screen
+      name="address"
+      options={{
+        headerTitle: () => (
+          <Image source={icons.logo01}/>
+        ),
+        headerTitleAlign: 'center',
+        headerShadowVisible:false
+      }}
+    />
+
   </Stack >
   );
 }
